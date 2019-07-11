@@ -5,18 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Daniel Goldman</title>
+    <style>
+            /* Lets set the margin of the page to zero */
+            body {margin:0;}
+            /* lets style up the header a b it with a color and some padding and some margin */
+            header {background-color: black; padding:15px; margin-bottom: 15px;}
+            /* Lets hook up the H1 */
+            h1 {color:rgb(192, 0, 0);font-size: 55px; text-align: center; margin-bottom: -30px;}
+            /*And then the H2 */
+            h2 {color:rgb(143, 2, 2);font-size: 35px; text-align: center;}
+            /*This is a class to center blocks */
+            .center {display: block; margin-left: auto; margin-right:auto;}
+            /* lets push off the paragraphs off the edge of the page as we set the margin to zero */
+            p {color:blue; margin-left:25px;}
+            /*lets give the contact block some padding */
+            .contact {padding-left:25px;}
+            /*Lets give the footer a little style */
+            footer {color:#fff; background-color: #000; text-align: center; padding:15px;}
+            </style>
 </head>
 <body>
-    <h1>Student Bio</h1>
-    <h2>Daniel Goldman</h2>
-    <img src="https://via.placeholder.com/350x150" alt="Placeholder for Daniel Goldman" width="350">
+    <!--Introduction Information-->
+    <header>   
+        <h1>Student Bio</h1>
+        <h2>Daniel Goldman</h2>
+    </header>
+    <!--Some Additional Information-->
+    <section>
+    <img src="https://via.placeholder.com/350x150" class="center" alt="Placeholder for Daniel Goldman" width="350">
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh. Non curabitur gravida arcu ac tortor dignissim convallis aenean. Vitae turpis massa sed elementum tempus egestas sed sed risus. At tellus at urna condimentum mattis pellentesque id nibh tortor. Adipiscing bibendum est ultricies integer quis auctor elit. Praesent semper feugiat nibh sed pulvinar proin gravida. Tempor commodo ullamcorper a lacus vestibulum. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Vitae semper quis lectus nulla at volutpat diam. Elementum facilisis leo vel fringilla. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Phasellus vestibulum lorem sed risus ultricies. Netus et malesuada fames ac turpis egestas. Posuere morbi leo urna molestie at elementum eu facilisis. Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Facilisi nullam vehicula ipsum a arcu. Pharetra sit amet aliquam id.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id nibh tortor id aliquet lectus proin nibh. Non curabitur gravida arcu ac tortor dignissim convallis aenean. Vitae turpis massa sed elementum tempus egestas sed sed risus. At tellus at urna condimentum mattis pellentesque id nibh tortor. Adipiscing bibendum est ultricies integer quis auctor elit. Praesent semper feugiat nibh sed pulvinar proin gravida. Tempor commodo ullamcorper a lacus vestibulum. Commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Vitae semper quis lectus nulla at volutpat diam. Elementum facilisis leo vel fringilla. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Phasellus vestibulum lorem sed risus ultricies. Netus et malesuada fames ac turpis egestas. Posuere morbi leo urna molestie at elementum eu facilisis. Nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum. Facilisi nullam vehicula ipsum a arcu. Pharetra sit amet aliquam id.</p>
+    </section>
+    <!--Contact Information-->
+    <section class="contact">
     <h3>Contact Info:</h3>
     <ul>
         <li><strong>Email: </strong><a href="mailto:osmosismediainc@gmail.com">osmosismediainc@gmail.com</a> </li>
         <li><strong>Github: </strong><a href="https://github.com/osmosismediainc" alt="Daniel's Github" target="_blank">OsmosisInc</a></li>
         <li><strong>Portfolio: </strong><a href="http://osmosis.media" alt="Daniel's Portfolio" target="_blank">My Portfolio</a> </li>
     </ul>
+</section>
+<footer><small>&copy; Daniel Goldman 2019</small></footer>
 </body>
 </html>
